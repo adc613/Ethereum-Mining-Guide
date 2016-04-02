@@ -29,7 +29,9 @@ just easier to do it graphically.
   ```
   aticonfig --odgt
   ```
+
 #### If test failed
+
 1. Edit /etc/default/grub
 Add "nogpumanager" in the following line (within the quotation marks)
 e.g. if you have this line:
