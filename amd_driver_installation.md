@@ -5,6 +5,7 @@
 to do it form the command line, but I had trouble with it last time so it's
 just easier to do it graphically.
 3. Run script navigate to extracted file
+
   ```
   sudo ./AMD-APP-SDK-v2.9-1.599.381-GA-linux64.sh
   ```
@@ -12,6 +13,7 @@ just easier to do it graphically.
 5. Accept by pressing y
 6. Press enter to accept default installation path
 7. Create symbolic links
+
   ```
   sudo ln -s /opt/AMDAPPSDK-2.9-1 /opt/AMDAPP
   sudo ln -s /opt/AMDAPP/include/CL /usr/include
@@ -20,12 +22,14 @@ just easier to do it graphically.
   sudo reboot
   ```
 8. Install fglrx and initialize
+
   ```
   sudo apt-get install fglrx-updates
   sudo aticonfig --adapter=all --initial
   sudo aticonfig --list-adapter
   ```
 9. Test and make sure the temperature is returned
+
   ```
   aticonfig --odgt
   ```
