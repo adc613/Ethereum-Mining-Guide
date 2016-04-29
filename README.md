@@ -1,5 +1,7 @@
 ___Disregard all this and just pay $40 for an image of
 [ethOS](https://gpuShack.com)___
+    My rig went down and I couldn't get it back up even with this guide. I just
+    got ethOS and haven't had any problems
 
 This guide is my attempt at documenting what I had to do to get my mining rig
 going. I tried to make it as complete as I could if I missed any steps or you
